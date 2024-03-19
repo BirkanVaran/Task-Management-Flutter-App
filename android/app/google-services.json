@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085314442023",
+    "project_id": "todo---task-management",
+    "storage_bucket": "todo---task-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085314442023:android:73bb3bc075c07a45317f02",
+        "android_client_info": {
+          "package_name": "com.example.todo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD38aXrkFLjBFf2bM4cdj6qvLewuwJm3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
