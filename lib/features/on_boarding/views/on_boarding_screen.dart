@@ -33,12 +33,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.darkBackground,
       body: SafeArea(
         child: Stack(
           alignment: Alignment.bottomCenter,
           children: [
             PageView(
+              // physics: const PageScrollPhysics(),
               controller: pageController,
               children: const [FirstPage(), SecondPage()],
             ),

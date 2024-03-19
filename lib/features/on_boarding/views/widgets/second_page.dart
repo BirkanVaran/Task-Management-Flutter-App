@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:todo_app/core/common/widgets/round_button.dart';
 import 'package:todo_app/core/common/widgets/white_space.dart';
 import 'package:todo_app/core/resources/image_res.dart';
+import 'package:todo_app/features/authentication/views/sign_in_screen.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({super.key});
@@ -17,7 +18,14 @@ class SecondPage extends StatelessWidget {
           const WhiteSpace(height: 100),
           RoundButton(
             text: 'Login with phone number',
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => const SignInScreen(),
+                ),
+              );
+            },
           ),
         ],
       ),

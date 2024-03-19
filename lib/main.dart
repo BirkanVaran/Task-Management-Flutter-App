@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:todo_app/core/resources/colours.dart';
 import 'package:todo_app/features/on_boarding/views/on_boarding_screen.dart';
 
 void main() {
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
           title: 'ToDo App',
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+            scaffoldBackgroundColor: AppColors.darkBackground,
             useMaterial3: true,
           ),
           home: const OnBoardingScreen(),
